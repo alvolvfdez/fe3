@@ -1,0 +1,10 @@
+{
+  "patchLevel": {
+    "drupal/core": "-p2"
+  },
+  "patches": {
+    "drupal/restui": {
+      "Basic Auth module conflicts with server-level \"Site Lock\" implementations": "https://git.drupalcode.org/project/drupal/-/merge_requests/12860.patch"
+    }
+  }
+}
