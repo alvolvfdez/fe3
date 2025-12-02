@@ -3,8 +3,5 @@
     "drupal/core": "-p2"
   },
   "patches": {
-    "drupal/restui": {
-      "Basic Auth module conflicts with server-level \"Site Lock\" implementations": "https://www.drupal.org/files/issues/2021-01-19/basic_auth_1.patch"
-    }
   }
 }
